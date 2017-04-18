@@ -20,7 +20,7 @@
     "babel-plugin-module-alias": "^1.6.0",
     "babel-preset-react-native": "1.9.1",
     "jest": "19.0.2",
-    "meteor-client-bundler": "^1.2.0",
+    "meteor-client-bundler": "^0.2.0",
     "meteor-native-packages": "^0.0.1",
     "react-test-renderer": "16.0.0-alpha.6"
   },
