@@ -5,14 +5,14 @@ Meteor.startup(() => {
   if (MyCollection.find().count() != 0) return;
 
   MyCollection.insert({
-    name: 'foo'
+    value: 'foo'
   });
 
   MyCollection.insert({
-    name: 'bar'
+    value: 'bar'
   });
 
   MyCollection.insert({
-    name: 'baz'
+    value: 'baz'
   });
 });
