@@ -5,13 +5,13 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "api": "meteor run api",
+    "api": "cd api && meteor run",
     "meteor-bundle-client": "meteor-client bundle -s api"
   },
   "dependencies": {
     "meteor-node-stubs": "^0.2.6",
     "react": "16.0.0-alpha.6",
-    "react-addons-pure-render-mixin": "^15.5.2",
+    "react-meteor-data": "^0.2.10",
     "react-native": "0.43.3"
   },
   "devDependencies": {
