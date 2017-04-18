@@ -1,0 +1,9 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-alias", [
+      { "src": "./api/server", "expose": "api" },
+      { "src": "./meteor_packages", "expose": "meteor" }
+    ]]
+  ]
+}

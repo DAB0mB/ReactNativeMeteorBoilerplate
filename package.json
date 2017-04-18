@@ -1,0 +1,30 @@
+{
+  "name": "ReactNativeMeteorBoilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "api": "meteor run api",
+    "meteor-bundle-client": "meteor-client bundle -s api"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "^0.2.6",
+    "react": "16.0.0-alpha.6",
+    "react-addons-pure-render-mixin": "^15.5.2",
+    "react-native": "0.43.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "19.0.0",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "meteor-client-bundler": "^1.2.0",
+    "meteor-native-packages": "^0.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
