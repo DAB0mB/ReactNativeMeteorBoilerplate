@@ -16,9 +16,17 @@ Start the API server:
 
     $ npm run api
 
-Run the app:
+Start the packager:
 
     $ npm start
+
+Run the app:
+
+    $ react-native run-android
+
+Or in case you're using iOS:
+
+    $ react-native run-ios
 
 > **Note:** The API URL is configured to `http://localhost:3000` by default. If you would like to change that, be sure to visit the official `README.md` file of [Meteor Client Bundler](https://github.com/Urigo/meteor-client-bundler) for detailed instructions.
 
