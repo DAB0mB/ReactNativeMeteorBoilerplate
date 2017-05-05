@@ -8,6 +8,10 @@ Install all the dependencies:
 
     $ npm install
 
+Install native packages
+
+    $ npm run install-native-packages
+
 Bundle Meteor client:
 
     $ npm run meteor-bundle-client
