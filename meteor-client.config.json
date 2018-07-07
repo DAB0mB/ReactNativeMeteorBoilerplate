@@ -1,0 +1,11 @@
+{
+    "source": "./api",
+    "runtime": {
+        "DDP_DEFAULT_CONNECTION_URL": "http://localhost:3000",
+        "ROOT_URL": "http://localhost:3000"
+    },
+    "externalNpmPackages": [
+        "react"
+    ],
+    "generateNodeModules": true
+}
