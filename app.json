@@ -1,4 +1,7 @@
 {
   "name": "ReactNativeMeteorBoilerplate",
-  "displayName": "ReactNativeMeteorBoilerplate"
+  "displayName": "ReactNativeMeteorBoilerplate",
+  "expo": {
+    "sdkVersion": "27.0.0"
+  }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { createContainer } from 'react-meteor-data';
-import { MyCollection } from 'api/collections';
+import { withTracker } from 'meteor/react-meteor-data';
+import { MyCollection } from '../api/server/collections';
 import {
   Text,
   ListView
@@ -26,8 +26,8 @@ class MyListView extends Component {
   }
 }
 
-export default createContainer(() => {
+export default withTracker(() => {
   return {
     items: MyCollection.find().fetch()
   };
-}, MyListView);
+})(MyListView);
