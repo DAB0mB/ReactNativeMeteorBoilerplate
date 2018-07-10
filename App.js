@@ -1,7 +1,7 @@
+import 'react-native-meteor-polyfills';
 import 'meteor-client';
-import { MyCollection } from 'api/collections';
+import { MyCollection } from './api/server/collections';
 import { Meteor } from 'meteor/meteor';
-import { createContainer } from 'react-meteor-data';
 import React, { Component } from 'react';
 import {
   View
@@ -14,6 +14,7 @@ export default class App extends Component {
 
     Meteor.startup(() => {
       this.setState({ ready: true });
+      console.log(`Meteor connection status: ${Meteor.status().status}`);
     });
 
     this.state = {
