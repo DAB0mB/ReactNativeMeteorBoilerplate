@@ -1,6 +1,5 @@
-import 'react-native-meteor-polyfills';
+import 'react-native-meteor-polyfills/client';
 import 'meteor-client';
-import { MyCollection } from './api/server/collections';
 import { Meteor } from 'meteor/meteor';
 import React, { Component } from 'react';
 import {
@@ -23,7 +22,7 @@ export default class App extends Component {
   }
 
   render() {
-    if (!this.state.ready) return (<View></View>);
+    if (!this.state.ready) return (<View />);
 
     return (<MyListView />);
   }

@@ -4731,9 +4731,9 @@ merge@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
 
-"meteor-client-bundler@git+https://github.com/ardatan/meteor-client-bundler.git":
-  version "0.5.1"
-  resolved "git+https://github.com/ardatan/meteor-client-bundler.git#86cdf2939d8d6b75fd58bc76ba388e9036e307c5"
+meteor-client-bundler@0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/meteor-client-bundler/-/meteor-client-bundler-0.5.7.tgz#495979cbbd7f6e2258001316660fa3e394429688"
   dependencies:
     babel-core "^6.24.0"
     commander "^2.9.0"
